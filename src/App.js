@@ -2,7 +2,7 @@
 
 function App() {
   return (
-    <div className="flex flex-col-reverse justify-center items-center min-h-screen w-screen bg-gradient-to-r from-[#F0F4FD] via-purple-200 to-[#A1A3BA]" >
+    <div className="lg:flex-row flex flex-col-reverse justify-center items-center min-h-screen w-screen bg-gradient-to-r from-[#F0F4FD] via-purple-200 to-[#A1A3BA]" >
 
 
 
@@ -12,11 +12,11 @@ function App() {
           <span className="font-mono font-light">Delicious Salads</span>
         </h1>
 
-        <p>
-        we made fresh and healty foods
+        <p className="text-base text-gray-700">
+          we made fresh and healty foods
         </p>
 
-        <span>
+        <span className="inline-block bg-indigo-500 px-10 py-5 rounded-full shadow-lg shadow-purple-300 uppercase text-lg tracking-wide mt-5">
           Explore
         </span>
       </div>
@@ -25,7 +25,7 @@ function App() {
 
       <img src={process.env.PUBLIC_URL + "/assets/food.svg"} 
            alt="food" 
-           className="w-screen" />
+           className="w-screen lg:max-w-lg" />
 
 
     </div>
