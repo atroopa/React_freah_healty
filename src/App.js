@@ -32,7 +32,7 @@ function App() {
 
       <img src={process.env.PUBLIC_URL + "/assets/food.svg"} 
            alt="food"
-           className={`${isAnimated ? 'scale-150': ''
+           className={`${isAnimated ? 'scale-150': 'translate-x-full translate-y-full'
                         } w-screen lg:max-w-lg transform transition duration-1000 ease-in-out`} />
 
 
