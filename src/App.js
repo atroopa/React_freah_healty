@@ -13,7 +13,10 @@ function App() {
   return (
     <div className="lg:justify-around lg:flex-row flex flex-col-reverse justify-center items-center min-h-screen w-screen bg-gradient-to-r from-[#F0F4FD] via-purple-200 to-[#A1A3BA]" >
 
-      <div className="mt-5 text-center lg:text-left">
+      <div className={` ${
+                          isAnimated ? 'scale-y-100' : 'scale-y-0'
+                        } mt-10 text-center lg:text-left transform transition duration-1000 ease-in-out`} >
+
         <h1 className="font-black text-5xl lg:text-6xl">
           Fresh Healty <br/>
           <span className="font-mono font-light">Delicious Salads</span>
