@@ -6,6 +6,12 @@ function App() {
       <img src={process.env.PUBLIC_URL + "/assets/food.svg"} 
            alt="food" 
            className="w-screen" />
+      
+      <h1>
+        Fresh Healty
+        Delicious Salads
+        we made fresh and healty foods
+      </h1>
 
     </div>
   );
