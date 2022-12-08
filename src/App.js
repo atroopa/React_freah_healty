@@ -6,10 +6,10 @@ function App() {
 
 
 
-      <div className="mt-5">
-        <h1 className="font-black text-4xl text-center">
-          Fresh Healty
-          Delicious Salads
+      <div className="mt-5 text-center">
+        <h1 className="font-black text-5xl">
+          Fresh Healty <br/>
+          <span className="font-mono font-light">Delicious Salads</span>
         </h1>
 
         <p>
